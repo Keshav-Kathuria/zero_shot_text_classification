@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zero-Shot Text Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Zero-Shot Text Classification</h2>
+
+        <textarea id="text" rows="4" placeholder="Enter Text Here"></textarea>
+        <input id="labels" type="text" placeholder="Enter Valid Labels">
+        <button id="classifyBtn">Classify</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

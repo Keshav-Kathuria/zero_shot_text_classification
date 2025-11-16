@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+model/.ipynb_checkpoints/
+
+# Hugging Face / Transformers model cache
+.cache/
+cache/
+transformers_cache/
+model/*.bin
+model/*.safetensors
+model/*.pt
+
+# Logs
+*.log
+
+# Flask instance folder
+instance/
+
+# VS Code settings
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
